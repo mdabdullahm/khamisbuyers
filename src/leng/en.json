@@ -6,5 +6,91 @@
     "services": "Services",
     "contact": "Contact",
     "cta": "Get Started"
+  },
+  "Hero": {
+    "title": "We Buy Used Furniture and Appliances in Khamis Mushait",
+    "description": "Instant purchase of ACs, refrigerators, washers, and all types of used furniture at the best prices with cash payment and fast service.",
+    "whatsapp": "Contact via WhatsApp",
+    "call": "Call Now",
+    "phone": "+966 50 000 0000"
+  },
+  "Stats": {
+    "clients": "500+ Clients",
+    "speed": "Fast Service",
+    "coverage": "Khamis Mushait & Surroundings",
+    "response": "Response in Minutes"
+  },
+  
+  "Features": {
+    "subtitle": "Our Specialties",
+    "title": "Items We Purchase At Best Prices",
+    "ac": "Air Conditioners",
+    "acDesc": "We buy all types of split and window ACs, working or not.",
+    "furniture": "Used Furniture",
+    "furnitureDesc": "Sofa sets, bedroom sets, dining tables, and wooden cabinets.",
+    "fridge": "Refrigerators",
+    "fridgeDesc": "All sizes of refrigerators and deep freezers at top market rates.",
+    "washer": "Washing Machines",
+    "washerDesc": "Automatic and semi-automatic washers from all major brands.",
+    "electronics": "Electronics",
+    "electronicsDesc": "LED TVs, ovens, and other household electronic appliances.",
+    "kitchen": "Kitchen Items",
+    "kitchenDesc": "Complete kitchen sets and heavy-duty cooking ranges.",
+    "btn": "Get Quote"
+  },
+
+  
+  "Categories": {
+    "title": "Browse Categories",
+    "subtitle": "What are you looking to sell?",
+    "bedroom": "Bedroom Furniture",
+    "living": "Living Room & Sofas",
+    "appliances": "Home Appliances",
+    "office": "Office Furniture",
+    "ac": "AC & Cooling",
+    "kitchen": "Kitchen Equipment",
+    "viewAll": "View All Items"
+  },
+
+  "About": {
+    "badge": "About Khamis Buyers",
+    "title": "Leading the Used Furniture Market Since 2008",
+    "description1": "We are a trusted name in Khamis Mushait, specializing in the purchase of high-quality used furniture and household appliances. Our mission is to provide the best value to our customers through fair pricing and professional service.",
+    "description2": "With over 15 years of experience, we have built a reputation for honesty and reliability. Whether you are moving or upgrading, we make the process of selling your items smooth and hassle-free.",
+    "point1": "Top Market Prices Paid",
+    "point2": "Free Home Pick-up Service",
+    "point3": "Instant Cash Payments",
+    "point4": "Professional Evaluation Team",
+    "btn": "Learn More About Us"
+  },
+
+  "WhyChoose": {
+    "subtitle": "Why Work With Us",
+    "title": "The Best Experience in Selling Used Items",
+    "reason1": "Best Market Price",
+    "desc1": "We provide a fair valuation for your used items, ensuring you get the highest price compared to other buyers.",
+    "reason2": "Instant Cash Payment",
+    "desc2": "No waiting for bank transfers. Once we agree on a price, we pay you immediately in cash on the spot.",
+    "reason3": "Free Home Pickup",
+    "desc3": "You don't need to worry about transport. Our team will come to your location and pick up the items for free.",
+    "reason4": "24/7 Availability",
+    "desc4": "Our team is always ready to respond to your calls and messages. We value your time and reach you quickly."
+  },
+
+  "BestSelling": {
+    "title": "Top Selling Items",
+    "subtitle": "High-quality products recently purchased and sold",
+    "condition": "Condition",
+    "new": "Like New",
+    "used": "Gently Used",
+    "inquiry": "Inquire Price",
+    "items": {
+      "ac": "Split AC - O-General",
+      "bedroom": "Complete Wooden Bedroom Set",
+      "sofa": "Modern 7-Seater Sofa",
+      "fridge": "Samsung Double Door Fridge"
+    }
   }
+
 }
+
