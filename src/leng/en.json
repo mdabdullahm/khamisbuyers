@@ -90,7 +90,228 @@
       "sofa": "Modern 7-Seater Sofa",
       "fridge": "Samsung Double Door Fridge"
     }
-  }
+  },
 
+  "Portfolio": {
+    "subtitle": "Our Recent Success",
+    "title": "Business Showcase",
+    "filterAll": "All Projects",
+    "filterFurniture": "Furniture",
+    "filterAc": "AC & Cooling",
+    "filterAppliances": "Appliances",
+    "viewDetails": "View Success Story",
+    "projects": {
+      "p1": "Full Villa Furniture Buyout",
+      "p2": "Corporate Office AC Setup",
+      "p3": "Premium Apartment Furnishing",
+      "p4": "Luxury Kitchen Renovation Deal",
+      "loc": "Location",
+      "status": "Completed"
+    }
+  },
+
+  "Testimonials": {
+    "subtitle": "Trust & Feedback",
+    "title": "Real Stories From Our Clients",
+    "reviews": [
+      { "name": "Ahmed Al-Qahtani", "role": "Villa Owner", "comment": "Best prices in Khamis Mushait. Very professional team." },
+      { "name": "Sami Mansour", "role": "Apartment Resident", "comment": "Sold my ACs in minutes. Instant cash payment received!" },
+      { "name": "Dr. Khaled", "role": "Physician", "comment": "Hassle-free experience. They handled everything from pickup to payment." },
+      { "name": "Fatima Zahra", "role": "Home Maker", "comment": "Excellent service. Very polite staff and fair valuation of furniture." },
+      { "name": "Eng. Sultan", "role": "Project Manager", "comment": "I sold my office furniture. The evaluation was quick and transparent." },
+      { "name": "Ibrahim Ali", "role": "Business Owner", "comment": "Reliable and honest. They are the best used furniture buyers in the region." }
+    ]
+  },
+  "FAQ": {
+    "subtitle": "Common Questions",
+    "title": "Everything You Need to Know",
+    "questions": [
+      {
+        "q": "What types of items do you buy?",
+        "a": "We buy all kinds of used household items including bedroom sets, sofas, dining tables, split and window ACs, refrigerators, washing machines, and other electronics."
+      },
+      {
+        "q": "How do you evaluate the price?",
+        "a": "Our experts evaluate the items based on their current condition, brand, and age. We guarantee to provide the most competitive and fair price in the Khamis Mushait market."
+      },
+      {
+        "q": "Do you offer free home pickup?",
+        "a": "Yes! Once we agree on a price, our team will come to your home, handle the dismantling and loading, and transport the items for free."
+      },
+      {
+        "q": "When and how do I get paid?",
+        "a": "We believe in transparency. You will receive the full payment in cash immediately on the spot before we load the items from your location."
+      },
+      {
+        "q": "Which areas do you cover?",
+        "a": "We primarily cover Khamis Mushait, Abha, and all surrounding areas in the Asir region."
+      }
+    ]
+  },
+  "CTA": {
+    "title": "Ready to Sell Your Used Furniture?",
+    "subtitle": "Get an instant valuation and cash payment today. We handle everything from pickup to dismantling.",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call Us Now",
+    "trust": "Trusted by 500+ households in Khamis Mushait"
+  },
+  "Contact": {
+    "Avail": "Availability",
+    "location": "Location",
+    "subtitle": "Get In Touch",
+    "title": "Contact Us Today",
+    "description": "Have furniture or appliances to sell? Fill out the form or contact us directly via WhatsApp or Phone.",
+    "name": "Your Name",
+    "phone": "Phone Number",
+    "service": "Select Service",
+    "message": "Your Message",
+    "send": "Send Message",
+    "infoTitle": "Contact Information",
+    "address": "Khamis Mushait, Asir Region, Saudi Arabia",
+    "hours": "Working Hours: 8:00 AM - 10:00 PM",
+    "success": "Message sent successfully!"
+  },
+
+  "AboutHero": {
+    "badge": "The Visionary",
+    "title": "Leading the Business with Integrity and",
+    "highlight": "Strategic Vision",
+    "description": "I am MD Abdullah, an entrepreneur dedicated to transforming the used furniture and appliances trade in Khamis Mushait. My focus is on building sustainable businesses that value trust and customer satisfaction above all else.",
+    "experience": "15+ Years",
+    "experienceSub": "In Business Leadership",
+    "deals": "10k+",
+    "dealsSub": "Successful Transactions"
+  },
+  
+  "BrandStory": {
+    "subtitle": "Our Heritage",
+    "title": "The Story Behind Khamis Buyers",
+    "story1": "It all started in 2008 in the heart of Khamis Mushait. With just a small vision and a commitment to honesty, MD Abdullah began exploring the used furniture market. Back then, the goal was simple: to help people find value in every item.",
+    "story2": "As the years passed, we evolved from a small local initiative into a trusted brand. We didn't just buy and sell; we built relationships. Our reputation for fair pricing and instant cash payments became our signature in the Asir region.",
+    "story3": "Today, Khamis Buyers stands as a symbol of reliability. We manage a vast portfolio of high-quality household items and electronics, serving thousands of satisfied customers every year while maintaining the same core values we started with.",
+    "year1": "2008",
+    "year1Title": "The Beginning",
+    "year2": "2015",
+    "year2Title": "Brand Expansion",
+    "year3": "Today",
+    "year3Title": "Market Leadership"
+  },
+
+  "MissionVision": {
+    "missionTitle": "Our Mission",
+    "missionDesc": "To provide fair value and sustainable solutions for used goods, ensuring every household in Khamis Mushait can buy and sell with absolute trust and transparency.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To be the most respected and innovative leader in the pre-owned furniture and appliances industry across the Asir region, driven by integrity and service excellence.",
+    "commitment": "Our Commitment",
+    "commitmentDesc": "100% Customer Satisfaction & Fair Pricing."
+  },
+  
+  "WhatWeSell": {
+    "subtitle": "Our Inventory Focus",
+    "title": "Premium Quality Pre-owned Goods",
+    "description": "We specialize in a wide range of high-quality used furniture and appliances. Every item we purchase or sell undergoes a strict quality check to ensure it meets our standards of excellence.",
+    "cat1": "Luxury Living Room",
+    "cat1Desc": "Premium sofa sets, majlis, and elegant coffee tables.",
+    "cat2": "Complete Bedroom Sets",
+    "cat2Desc": "Wooden beds, spacious wardrobes, and dressing tables.",
+    "cat3": "Kitchen Excellence",
+    "cat3Desc": "Modern refrigerators, ovens, and heavy-duty cooking ranges.",
+    "cat4": "Smart Home Appliances",
+    "cat4Desc": "Top-brand washing machines, dryers, and dishwashers.",
+    "cat5": "Advanced AC Solutions",
+    "cat5Desc": "High-performance split and window AC units from leading brands.",
+    "cat6": "Home Electronics",
+    "cat6Desc": "Large screen LEDs, sound systems, and small appliances.",
+    "btn": "Contact for Evaluation"
+  },
+
+  "Workspace": {
+    "subtitle": "Our Infrastructure",
+    "title": "A Glimpse Into Our Operations",
+    "description": "Explore our large-scale facilities in Khamis Mushait. From our modern showroom to our high-capacity warehouses, we maintain a professional environment to manage and evaluate our premium inventory.",
+    "photo1": "Main Showroom",
+    "photo2": "Furniture Warehouse",
+    "photo3": "Appliance Testing Area",
+    "photo4": "Logistics & Transport Fleet",
+    "photo5": "Evaluation Office"
+  },
+
+  "Achievements": {
+    "subtitle": "Milestones & Impact",
+    "title": "Decades of Professional Excellence",
+    "stat1": "Years Experience",
+    "stat1Num": "15+",
+    "stat2": "Satisfied Clients",
+    "stat2Num": "10k+",
+    "stat3": "Business Ventures",
+    "stat3Num": "05+",
+    "stat4": "City Coverage",
+    "stat4Num": "25+",
+    "stat5": "Expert Team",
+    "stat5Num": "50+"
+  },
+
+  "ServicesHero": {
+    "badge": "Our Professional Services",
+    "title": "Comprehensive Solutions for Your",
+    "highlight": "Used Assets",
+    "description": "We offer a seamless and transparent process for selling your pre-owned furniture and appliances. From expert valuation to instant cash payment, we handle it all with professional excellence.",
+    "cta": "Explore Services",
+    "trust": "Fast. Reliable. Professional."
+  },
+
+  "MainServices": {
+    "subtitle": "What We Offer",
+    "title": "Tailored Solutions for Your Selling Needs",
+    "btn": "Get a Quote",
+    "s1Title": "Used Furniture Buying",
+    "s1Desc": "We buy all types of high-quality household furniture from villas and apartments.",
+    "s1Feature": "Bedrooms, Sofas, Dining Tables, Majlis",
+    "s2Title": "AC & Cooling Systems",
+    "s2Desc": "Expert evaluation and purchase of all air conditioning units, working or damaged.",
+    "s2Feature": "Split AC, Window AC, Floor Standing, Central",
+    "s3Title": "Home Appliances",
+    "s3Desc": "We purchase modern kitchen and laundry appliances at top market rates.",
+    "s3Feature": "Refrigerators, Washers, Ovens, Microwaves",
+    "s4Title": "Office Furniture",
+    "s4Desc": "Complete buyout solutions for corporate offices and business spaces.",
+    "s4Feature": "Desks, Chairs, File Cabinets, Meeting Tables",
+    "s5Title": "Kitchen Equipment",
+    "s5Desc": "Buying heavy-duty kitchen sets and restaurant equipment.",
+    "s5Feature": "Cookers, Freezers, Stainless Steel Tables",
+    "s6Title": "Full Villa Clearance",
+    "s6Desc": "A complete solution for those looking to empty their entire villa quickly.",
+    "s6Feature": "Full House Buyout, Fast Transport, Spot Cash"
+  },
+
+  "FeaturedService": {
+    "badge": "Premium Solution",
+    "title": "Full Villa & Corporate Office Clearance",
+    "description": "Moving to a new city or renovating your entire workspace? We provide an elite, hassle-free solution for large-scale furniture and appliance buyouts.",
+    "point1": "Complete evaluation within 24 hours",
+    "point2": "Professional dismantling and packing team",
+    "point3": "Large transport fleet for quick removal",
+    "point4": "Guaranteed best bulk-deal pricing",
+    "statTitle": "Projects Completed",
+    "statValue": "1,200+",
+    "btn": "Request Expert Evaluation"
+  },
+
+  "WorkProcess": {
+    "subtitle": "How It Works",
+    "title": "Four Simple Steps to Sell Your Items",
+    "step1": "01",
+    "step1Title": "Contact & Photos",
+    "step1Desc": "Reach out to us via WhatsApp or Phone and send photos of the items you want to sell.",
+    "step2": "02",
+    "step2Title": "Expert Evaluation",
+    "step2Desc": "Our experts will review the photos or visit your location for a professional price valuation.",
+    "step3": "03",
+    "step3Title": "Instant Cash Deal",
+    "step3Desc": "Once we agree on the price, we provide the full payment in cash immediately on the spot.",
+    "step4": "04",
+    "step4Title": "Fast Pick-up",
+    "step4Desc": "Our logistics team handles the dismantling and free transport of the items from your home."
+  }
 }
 

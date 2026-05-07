@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20 text-center lg:text-start">
+        <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20 text-center lg:text-start">
           <div className="max-w-3xl">
             <motion.h1 
               initial={{ opacity: 0, y: 20 }}

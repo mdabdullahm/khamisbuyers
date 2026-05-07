@@ -14,7 +14,7 @@ const AboutBrand = () => {
 
   return (
     <section className="py-24 bg-white overflow-hidden" id="about">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           {/* Image Side */}
