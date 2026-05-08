@@ -312,6 +312,171 @@
     "step4": "04",
     "step4Title": "Fast Pick-up",
     "step4Desc": "Our logistics team handles the dismantling and free transport of the items from your home."
+  },
+
+  "ServicesWhy": {
+    "subtitle": "Service Excellence",
+    "title": "Why Our Buying Service is Superior",
+    "reason1": "Transparent Valuation",
+    "desc1": "We provide a clear explanation of how we evaluate your items, ensuring you understand the fair market value.",
+    "reason2": "Zero Logistics Cost",
+    "desc2": "You don't pay a single riyal for transport or labor. We handle the entire removal process at our own expense.",
+    "reason3": "Secure & Instant Cash",
+    "desc3": "We prioritize your security and time. Full payment is made in cash before any item is moved from your premises.",
+    "reason4": "Expert Handling",
+    "desc4": "Our team is trained to dismantle and move heavy furniture and ACs without causing any damage to your property."
+  },
+
+  "Gallery": {
+    "subtitle": "Quality Inventory",
+    "title": "Items We Regularly Purchase",
+    "all": "All Items",
+    "furniture": "Furniture",
+    "ac": "AC Units",
+    "appliances": "Appliances",
+    "view": "View Item"
+  },
+
+  "ServicesFAQ": {
+    "subtitle": "Common Doubts",
+    "title": "Service Related Questions",
+    "questions": [
+      {
+        "q": "How quickly can you reach my location?",
+        "a": "Once you contact us and send photos, our team can usually reach any location in Khamis Mushait or Abha within 2 to 4 hours."
+      },
+      {
+        "q": "Do you buy damaged or non-working ACs?",
+        "a": "Yes, we purchase all types of AC units, whether they are in perfect working condition or completely damaged for scrap value."
+      },
+      {
+        "q": "Is the dismantling of furniture free?",
+        "a": "Absolutely. Our professional team brings their own tools to dismantle beds, wardrobes, and kitchen sets at no extra cost to you."
+      },
+      {
+        "q": "What is the minimum amount of items you buy?",
+        "a": "There is no minimum. Whether it's a single AC unit or a full villa full of furniture, we are interested in buying it."
+      }
+    ]
+  },
+  
+  "ContactHero": {
+    "badge": "Contact Khamis Buyers",
+    "title": "We are Ready to Evaluate Your",
+    "highlight": "Used Items Today",
+    "description": "Have questions about selling your furniture or appliances? Our team in Khamis Mushait is available 24/7 to provide you with the best market valuation and instant cash offers.",
+    "response": "Response Time",
+    "responseTime": "Under 5 Mins",
+    "coverage": "Coverage Area",
+    "coverageArea": "Asir Region"
+  },
+
+  "ContactMethods": {
+    "subtitle": "Direct Channels",
+    "title": "Ways to Connect With Us",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappDesc": "Send photos of your furniture for an instant price estimate.",
+    "call": "Call Directly",
+    "callDesc": "Speak with our expert evaluation team for immediate assistance.",
+    "address": "Visit Our Office",
+    "addressDesc": "Khamis Mushait, Asir Region, Kingdom of Saudi Arabia.",
+    "btnChat": "Start Chatting",
+    "btnCall": "Call Now",
+    "btnMap": "Open in Maps"
+  },
+
+  "ContactForm": {
+    "subtitle": "Direct Inquiry",
+    "title": "Request a Free Evaluation",
+    "description": "Please fill out the form below with your details. Our expert team will get back to you within 5 minutes for a professional price offer.",
+    "nameLabel": "Full Name",
+    "phoneLabel": "Phone Number",
+    "subjectLabel": "Item Category",
+    "messageLabel": "Short Description of Items",
+    "namePlaceholder": "Enter your name",
+    "phonePlaceholder": "Enter your phone number",
+    "messagePlaceholder": "Example: I have a 7-seater sofa and 2 split ACs for sale...",
+    "btn": "Send Inquiry Now",
+    "success": "Your message has been sent. We will call you shortly!"
+  },
+
+  "SellCTA": {
+    "title": "Turn Your Used Items into Instant Cash",
+    "subtitle": "Stop letting old furniture take up space. We are ready to buy your items at the best market price. Contact us now for a 5-minute evaluation.",
+    "phoneBtn": "Call Our Office",
+    "whatsappBtn": "Chat with Expert",
+    "trustText": "Trusted service across Khamis Mushait & Abha"
+  },
+
+  "GoogleMap": {
+    "subtitle": "Our Location",
+    "title": "Headquarters in Khamis Mushait",
+    "description": "We are centrally located to serve the entire Asir region. Visit our office for professional evaluation or to discuss large-scale buyout deals.",
+    "addressTitle": "Main Branch",
+    "addressDetail": "Khamis Mushait, Near City Center, Asir, Saudi Arabia",
+    "btn": "Get Directions"
+  },
+
+  "WorkingHours": {
+    "subtitle": "Availability",
+    "title": "When We Are At Your Service",
+    "description": "We understand that selling furniture can be a time-sensitive task. We maintain a flexible schedule to reach you at your most convenient time.",
+    "daysTitle": "Business Days",
+    "weekdays": "Saturday - Thursday",
+    "weekdaysTime": "8:00 AM - 10:00 PM",
+    "friday": "Friday",
+    "fridayTime": "4:00 PM - 10:00 PM",
+    "urgentTitle": "Urgent Inquiries",
+    "urgentDesc": "For urgent full villa clearances, we accept calls 24/7.",
+    "statusOpen": "We are currently Open",
+    "statusClosed": "We are currently Closed"
+  },
+
+  "ContactFAQ": {
+    "subtitle": "Quick Answers",
+    "title": "Frequent Communication Queries",
+    "questions": [
+      {
+        "q": "How can I get the fastest price offer?",
+        "a": "The fastest way is to send clear photos of your items via WhatsApp. Our team usually provides a preliminary estimate within 5 to 10 minutes."
+      },
+      {
+        "q": "Do I need to visit your office to sell items?",
+        "a": "No, you don't need to come to us. Once we agree on a price via phone or WhatsApp, we will come directly to your home for pickup and payment."
+      },
+      {
+        "q": "Do you buy items from Abha or outside Khamis Mushait?",
+        "a": "Yes, we cover the entire Asir region, including Abha, Ahad Rafidah, and Wadi Bin Hashbal. Distance is not an issue for us."
+      },
+      {
+        "q": "Can I schedule a visit for a later date?",
+        "a": "Certainly! You can book an appointment for any day of the week that suits your schedule. Just let us know your preferred time."
+      }
+    ]
+  },
+
+  "Footer": {
+    "about": "Khamis Buyers is your trusted partner for selling used furniture and appliances in the Asir region. We provide fair valuation, instant cash, and professional removal services.",
+    "links": "Navigation",
+    "services": "What We Buy",
+    "contact": "Contact Details",
+    "rights": "All Rights Reserved.",
+    "dev": "Crafted by",
+    "home": "Home",
+    "aboutLink": "About Me",
+    "servicesLink": "Services",
+    "contactLink": "Contact",
+    "location": "Khamis Mushait, Saudi Arabia",
+    "whatsapp": "Chat with Us",
+    "call": "Call for Evaluation"
+  },
+
+  "TopBar": {
+    "call": "Call Now",
+    "whatsapp": "WhatsApp",
+    "hours": "Working: 8am - 10pm",
+    "location": "Khamis Mushait"
   }
+
 }
 
