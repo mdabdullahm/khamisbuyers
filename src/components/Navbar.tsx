@@ -2,14 +2,14 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import { Link, usePathname, useRouter } from '@/navigation'; 
+import { Link, usePathname, useRouter } from '@/navigation';
 import { Globe, ChevronDown, Menu, X, Check } from 'lucide-react';
 import Image from 'next/image';
 
 const Navbar = () => {
   const [isLangOpen, setIsLangOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  
+
   const t = useTranslations('Navbar');
   const locale = useLocale();
   const pathname = usePathname();
@@ -35,19 +35,23 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full z-[100] bg-white border-b border-gray-100 shadow-sm" dir={isRTL ? 'rtl' : 'ltr'}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          
+
           {/* 1. Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0">
-            <Image 
-              src="/navlogo.png" 
-              alt={t('brand')} 
-              width={160}      
-              height={50}      
-              className="h-10 w-auto object-contain" 
-              priority         
+          <Link href="/" className="flex items-center gap-2 shrink-0 relative z-[110]">
+            {/* লোগো ইমেজ: মোবাইলে একটু ছোট (h-8) এবং বড় স্ক্রিনে (h-10) হবে */}
+            <Image
+              src="/navlogo.png"
+              alt={t('brand')}
+              width={160}
+              height={50}
+              className="h-8 sm:h-10 w-auto object-contain"
+              priority
             />
-            {/* যদি লোগোর পাশে টেক্সট নামও রাখতে চাও তবে নিচের লাইনটি আনকমেন্ট করো */}
-            <span className="text-xl font-bold text-blue-600 hidden sm:block">{t('brand')}</span>
+
+            {/* ব্র্যান্ডের নাম: মোবাইলে এবং কম্পিউটারে সবখানে দেখাবে */}
+            <span className="text-lg sm:text-xl font-black text-blue-600 uppercase tracking-tighter block">
+              {t('brand')}
+            </span>
           </Link>
 
           {/* 2. Desktop Navigation Links (Center) */}
@@ -61,10 +65,10 @@ const Navbar = () => {
 
           {/* 3. Right Side (Language Switcher + CTA Button) */}
           <div className="flex items-center gap-3">
-            
+
             {/* Language Switcher (তোমার দেওয়া ছবির মতো ডিজাইন) */}
             <div className="relative" ref={dropdownRef}>
-              <button 
+              <button
                 onClick={() => setIsLangOpen(!isLangOpen)}
                 className="flex items-center gap-2 px-3 py-1.5 bg-[#f0f7ff] border border-blue-100 rounded-full text-blue-600 hover:bg-blue-100 transition"
               >
@@ -86,15 +90,15 @@ const Navbar = () => {
             </div>
 
             {/* CTA Button (ডেস্কটপে দৃশ্যমান) */}
-            <Link 
-              href="#contact" 
+            <Link
+              href="#contact"
               className="hidden md:block bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-blue-700 transition shadow-md"
             >
               {t('cta')}
             </Link>
 
             {/* Mobile Menu Button */}
-            <button 
+            <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden p-2 text-slate-600 focus:outline-none"
             >
@@ -108,19 +112,19 @@ const Navbar = () => {
       <div className={`fixed inset-0 top-20 bg-white z-[90] transition-transform duration-300 md:hidden ${isMobileMenuOpen ? 'translate-x-0' : (isRTL ? 'translate-x-full' : '-translate-x-full')}`}>
         <div className="flex flex-col p-6 gap-6">
           {navLinks.map((link) => (
-            <Link 
-              key={link.name} 
-              href={link.href} 
+            <Link
+              key={link.name}
+              href={link.href}
               onClick={() => setIsMobileMenuOpen(false)}
               className="text-xl font-semibold text-slate-800 border-b border-slate-50 pb-4"
             >
               {link.name}
             </Link>
           ))}
-          
+
           {/* Mobile CTA */}
-          <Link 
-            href="#contact" 
+          <Link
+            href="#contact"
             onClick={() => setIsMobileMenuOpen(false)}
             className="w-full bg-blue-600 text-white py-4 rounded-2xl font-bold text-center text-lg"
           >
