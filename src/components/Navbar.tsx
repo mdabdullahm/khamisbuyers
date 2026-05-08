@@ -4,6 +4,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/navigation'; 
 import { Globe, ChevronDown, Menu, X, Check } from 'lucide-react';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isLangOpen, setIsLangOpen] = useState(false);
@@ -36,8 +37,17 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           
           {/* 1. Logo */}
-          <Link href="/" className="text-2xl font-bold text-blue-600 shrink-0 uppercase">
-            {t('brand')}
+          <Link href="/" className="flex items-center gap-2 shrink-0">
+            <Image 
+              src="/navlogo.png" 
+              alt={t('brand')} 
+              width={160}      
+              height={50}      
+              className="h-10 w-auto object-contain" 
+              priority         
+            />
+            {/* যদি লোগোর পাশে টেক্সট নামও রাখতে চাও তবে নিচের লাইনটি আনকমেন্ট করো */}
+            <span className="text-xl font-bold text-blue-600 hidden sm:block">{t('brand')}</span>
           </Link>
 
           {/* 2. Desktop Navigation Links (Center) */}
