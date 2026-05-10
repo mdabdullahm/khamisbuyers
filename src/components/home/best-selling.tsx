@@ -101,7 +101,7 @@ const BestSelling = () => {
 
                 {/* WhatsApp Action - Changed message logic to "I want to sell" */}
                 <a 
-                  href={`https://wa.me/966500000000?text=${isRTL ? 'مرحباً، أريد بيع ' : 'Hello, I want to sell my '}${product.name}`}
+                  href={`https://wa.me/966 053 968 5761?text=${isRTL ? 'مرحباً، أريد بيع ' : 'Hello, I want to sell my '}${product.name}`}
                   target="_blank"
                   className="flex items-center justify-center gap-2 w-full bg-slate-900 text-white py-3 rounded-xl font-bold text-sm group-hover:bg-blue-600 transition-all duration-300"
                 >
