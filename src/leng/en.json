@@ -8,11 +8,11 @@
     "cta": "Get Started"
   },
   "Hero": {
-    "title": "We Buy Used Furniture and Appliances in Khamis Mushait",
+    "title": "We Buy Used Furniture, ACs & Appliances in Khamis Mushait",
     "description": "Instant purchase of ACs, refrigerators, washers, and all types of used furniture at the best prices with cash payment and fast service.",
     "whatsapp": "Contact via WhatsApp",
     "call": "Call Now",
-    "phone": "+966 50 000 0000"
+    "phone": "+966 0539685761"
   },
   "Stats": {
     "clients": "500+ Clients",
@@ -78,19 +78,20 @@
   },
 
   "BestSelling": {
-    "title": "Top Selling Items",
-    "subtitle": "High-quality products recently purchased and sold",
-    "condition": "Condition",
-    "new": "Like New",
-    "used": "Gently Used",
-    "inquiry": "Inquire Price",
+    "title": "Items We Purchase Frequently",
+    "subtitle": "We offer the highest market rates for these high-demand items in Khamis Mushait.",
+    "condition": "Condition We Prefer",
+    "new": "Top Condition",
+    "used": "Clean Used",
+    "inquiry": "Sell This Item",
+    "priceLabel": "Top Payout Rate:",
     "items": {
-      "ac": "Split AC - O-General",
-      "bedroom": "Complete Wooden Bedroom Set",
-      "sofa": "Modern 7-Seater Sofa",
-      "fridge": "Samsung Double Door Fridge"
+      "ac": "Split AC (All Brands)",
+      "bedroom": "Luxury Bedroom Sets",
+      "sofa": "Modern Majlis & Sofas",
+      "fridge": "Large Capacity Fridges"
     }
-  },
+},
 
   "Portfolio": {
     "subtitle": "Our Recent Success",

@@ -44,7 +44,7 @@ const Navbar = () => {
               alt={t('brand')}
               width={160}
               height={50}
-              className="h-8 sm:h-10 w-auto object-contain"
+              className="h-8 sm:h-10 w-auto object-contain rounded-full"
               priority
             />
 

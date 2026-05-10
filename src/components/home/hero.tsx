@@ -25,9 +25,9 @@ const Hero = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=2070" 
+            src="https://i.ibb.co.com/spjw2vYw/male-movers-team-moving-service-600nw-2589221393.webp" 
             alt="Used Furniture"
-            className="w-full h-full object-cover opacity-40"
+            className="w-full h-full object-cover opacity-70"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent"></div>
         </div>
@@ -54,14 +54,14 @@ const Hero = () => {
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <a 
-                href="https://wa.me/966500000000"
+                href="https://wa.me/9660539685761"
                 className="w-full sm:w-auto flex items-center justify-center gap-3 bg-[#EAB308] text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-yellow-500 transition-all shadow-lg"
               >
                 <MessageCircle size={24} />
                 {t('whatsapp')}
               </a>
               <a 
-                href="tel:+966500000000"
+                href="tel:+966053 968 5761"
                 className="w-full sm:w-auto flex items-center justify-center gap-3 bg-[#064E3B] text-white border border-emerald-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-emerald-900 transition-all shadow-lg"
               >
                 <Phone size={24} />
