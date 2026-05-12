@@ -64,7 +64,7 @@ const AboutHero = () => {
               <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white">
                 {/* Replace with your professional business portrait */}
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" 
+                  src="https://i.ibb.co.com/8VMVMCq/Whats-App-Image-2026-05-12-at-4-46-53-PM.jpg" 
                   alt="MD Abdullah"
                   className="w-full h-auto object-cover aspect-[4/5]"
                 />

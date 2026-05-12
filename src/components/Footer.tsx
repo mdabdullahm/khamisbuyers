@@ -237,7 +237,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs text-slate-500 font-black uppercase tracking-widest mb-1">{t('call')}</p>
-                  <p className="font-black text-lg">+966 0539685761</p>
+                  <p className="font-black text-lg">0539685761</p>
                 </div>
               </a>
 
