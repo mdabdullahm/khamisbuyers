@@ -44,7 +44,7 @@ const CtaBanner = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 lg:gap-6">
               <a 
-                href="https://wa.me/966500000000"
+                href="https://wa.me/9660539685761"
                 className="w-full sm:w-auto flex items-center justify-center gap-3 bg-emerald-600 text-white px-10 py-5 rounded-2xl font-bold text-xl hover:bg-emerald-700 transition-all shadow-xl shadow-emerald-900/20"
               >
                 <MessageCircle size={24} />
@@ -52,7 +52,7 @@ const CtaBanner = () => {
               </a>
 
               <a 
-                href="tel:+966500000000"
+                href="tel:+9660539685761"
                 className="w-full sm:w-auto flex items-center justify-center gap-3 bg-white text-slate-900 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-slate-100 transition-all shadow-xl"
               >
                 <Phone size={24} />

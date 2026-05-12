@@ -6,7 +6,7 @@ import { Phone, MessageCircle } from 'lucide-react';
 
 const FloatingContact = () => {
   // ফোন নম্বর এবং হোয়াটসঅ্যাপ লিঙ্ক
-  const phoneNumber = "+966500000000";
+  const phoneNumber = "+9660539685761";
   const whatsappLink = `https://wa.me/${phoneNumber.replace('+', '')}`;
 
   return (

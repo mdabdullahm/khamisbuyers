@@ -17,7 +17,7 @@ const ContactMethods = () => {
       desc: t('whatsappDesc'),
       icon: <MessageCircle size={32} />,
       btn: t('btnChat'),
-      link: "https://wa.me/966500000000",
+      link: "https://wa.me/9660539685761",
       color: "bg-emerald-50 text-emerald-600 border-emerald-100",
       hover: "hover:bg-emerald-600"
     },
@@ -27,7 +27,7 @@ const ContactMethods = () => {
       desc: t('callDesc'),
       icon: <PhoneCall size={32} />,
       btn: t('btnCall'),
-      link: "tel:+966500000000",
+      link: "tel:+966 0539685761",
       color: "bg-blue-50 text-blue-600 border-blue-100",
       hover: "hover:bg-blue-600"
     },

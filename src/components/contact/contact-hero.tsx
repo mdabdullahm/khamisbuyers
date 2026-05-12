@@ -11,7 +11,7 @@ const ContactHero = () => {
   const isRTL = locale === 'ar';
 
   return (
-    <section className="relative pt-32 pb-20 bg-white overflow-hidden">
+    <section className="relative pt-10 pb-20 bg-white overflow-hidden">
       {/* Background Pattern (Subtle Business Grid) */}
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/clean-gray-paper.png')] opacity-20 -z-10"></div>
       

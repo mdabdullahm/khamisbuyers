@@ -12,7 +12,7 @@ const SellProductCTA = () => {
 
   return (
     <section className="py-12 lg:py-24 px-4 bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-full mx-auto">
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -44,7 +44,7 @@ const SellProductCTA = () => {
             {/* Action Side */}
             <div className="lg:col-span-5 flex flex-col sm:flex-row lg:flex-col gap-4">
               <a 
-                href="tel:+966500000000"
+                href="tel:+9660539685761"
                 className="group flex items-center justify-between bg-white text-slate-900 px-8 py-6 rounded-3xl font-black text-xl hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-xl"
               >
                 <div className="flex items-center gap-4">
@@ -55,7 +55,7 @@ const SellProductCTA = () => {
               </a>
 
               <a 
-                href="https://wa.me/966500000000"
+                href="https://wa.me/9660539685761"
                 className="flex items-center justify-center gap-4 bg-emerald-600 text-white px-8 py-6 rounded-3xl font-black text-xl hover:bg-emerald-700 transition-all duration-300 shadow-xl shadow-emerald-900/20"
               >
                 <MessageCircle size={24} />

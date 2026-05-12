@@ -12,7 +12,7 @@
     "description": "Instant purchase of ACs, refrigerators, washers, and all types of used furniture at the best prices with cash payment and fast service.",
     "whatsapp": "Contact via WhatsApp",
     "call": "Call Now",
-    "phone": "+966 0539685761"
+    "phone": "0539685761"
   },
   "Stats": {
     "clients": "500+ Clients",
@@ -424,9 +424,9 @@
     "description": "We understand that selling furniture can be a time-sensitive task. We maintain a flexible schedule to reach you at your most convenient time.",
     "daysTitle": "Business Days",
     "weekdays": "Saturday - Thursday",
-    "weekdaysTime": "8:00 AM - 10:00 PM",
+    "weekdaysTime": "8:00 AM - 8:00 PM",
     "friday": "Friday",
-    "fridayTime": "4:00 PM - 10:00 PM",
+    "fridayTime": "8:00 PM - 8:00 PM",
     "urgentTitle": "Urgent Inquiries",
     "urgentDesc": "For urgent full villa clearances, we accept calls 24/7.",
     "statusOpen": "We are currently Open",
